@@ -101,7 +101,7 @@
    }
    }
    var yourCar= object.create(myCar);
-   console.log (yourCar.name);]
+   console.log (yourCar.name);
 
  ```
 
