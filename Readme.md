@@ -3,25 +3,25 @@
 # **DESIGN PATTERNS**
 
 
-### In the Software Engineering world, **Design patterns** are typical solutions to a common problems. They are like templates that we can use and customize to solve a design problem in our code.
+#### In the Software Engineering world, **Design patterns** are typical solutions to a common problems. They are like templates that we can use and customize to solve a design problem in our code.
 
-### The pattern is not a specific piece of code, but it is a general concept for solving a particular problem. We can follow the pattern details and build a solution that is required for our program in order to solve the problem.
+#### The pattern is not a specific piece of code, but it is a general concept for solving a particular problem. We can follow the pattern details and build a solution that is required for our program in order to solve the problem.
 
 
 
-### lets talk a bit about ***Algorithm*** as it also helps one to solve problems and make programs using that.
+#### lets talk a bit about ***Algorithm*** as it also helps one to solve problems and make programs using that.
 
-### If we talk about *Algorithm*, it is a sequence of operations which needs to be implemented in order to solve a specific problem. 
+#### If we talk about *Algorithm*, it is a sequence of operations which needs to be implemented in order to solve a specific problem. 
 
  > **An Algorithm can be expressed in a code but a Design Pattern can't be directly translated to code.**
 
 
 ---
 
-### **Lets talk about what patterns consists of**
+#### **Lets talk about what patterns consists of**
 
 
-### Here are the sections that are usually present in a pattern description:
+#### Here are the sections that are usually present in a pattern description:
 
 
 * **Intent** of the pattern briefly describes both the problem and the solution.
@@ -30,7 +30,7 @@
 * **Code example** in one of the popular programming languages makes it easier to grasp the idea behind the pattern.
 ----
 
-### **Why one should learn** ***Design Patterns?***
+#### **Why one should learn** ***Design Patterns?***
 
  
 
@@ -43,13 +43,13 @@
 
 # **Classification of Design Pattern**
 
-### Design patterns differ by their complexity, level of detail and scale of applicability to the entire system being designed. I like the analogy to road construction: you can make an intersection safer by either installing some traffic lights or building an entire multi-level interchange with underground passages for pedestrians.
+#### Design patterns differ by their complexity, level of detail and scale of applicability to the entire system being designed. I like the analogy to road construction: you can make an intersection safer by either installing some traffic lights or building an entire multi-level interchange with underground passages for pedestrians.
 
-### The most basic and low-level patterns are often called idioms. They usually apply only to a single programming language.
+#### The most basic and low-level patterns are often called idioms. They usually apply only to a single programming language.
 
-### The most universal and high-level patterns are architectural patterns. Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
+#### The most universal and high-level patterns are architectural patterns. Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
 
-### In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
+#### In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
 
    * **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
 
@@ -69,7 +69,7 @@
 ## **1.**   **Constructor Design Pattern** 
 
 
-### This is a special method that is used to initialize the newly created objects once a memory is allocated.
+#### This is a special method that is used to initialize the newly created objects once a memory is allocated.
 
 ```js
    //Code Example
@@ -86,7 +86,7 @@
 
 ## **2.** **Prototype Pattern**
 
-### The prototype pattern is based on prototypical inheritance whereby objects created to act as prototypes for other objects. In reality, prototypes act as a blueprint for each object constructor created.
+#### The prototype pattern is based on prototypical inheritance whereby objects created to act as prototypes for other objects. In reality, prototypes act as a blueprint for each object constructor created.
 
 ```js 
    //Code example
@@ -111,7 +111,7 @@
 
  
 
-### The command design pattern encapsulates method invocation, operations, or requests into a single object so that we can pass method calls at our discretion. These commands are presented in **run()** and **execute()** format.
+#### The command design pattern encapsulates method invocation, operations, or requests into a single object so that we can pass method calls at our discretion. These commands are presented in **run()** and **execute()** format.
 
 
 
@@ -142,7 +142,7 @@
 
  ## **4.** **Observer Pattern**
 
- ### The observer design pattern is handy in a place where objects communicate with other sets of objects simultaneously.
+ #### The observer design pattern is handy in a place where objects communicate with other sets of objects simultaneously.
 
  ```js
 
@@ -176,7 +176,7 @@
 ---
  ## **5.** **Observer Pattern**
 
- ### This pattern is referred to as strict pattern, one drawback associated with this pattern is its daunting experience in testing because of its hidden dependencies objects which are not easily singled out for testing.
+ #### This pattern is referred to as strict pattern, one drawback associated with this pattern is its daunting experience in testing because of its hidden dependencies objects which are not easily singled out for testing.
 
 
 ```js 
